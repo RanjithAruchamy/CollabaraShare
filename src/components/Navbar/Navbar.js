@@ -15,7 +15,7 @@ var iconstyle = {
 }
 var title = {
   // color: "lightgreen",
-  color: "#0D6EFD",
+  color: "#dc3545",
 }
 export default function Navbar() {
   

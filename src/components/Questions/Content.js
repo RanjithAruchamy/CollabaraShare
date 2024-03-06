@@ -305,7 +305,9 @@ export default function Content(props) {
 
                 <div className="d-flex flex-row">
                     <div className="d-flex flex-column col-md-0 mt-0 mx-0">
-                        <button className='btn btn-white' id="queupvotebtn" onClick={(e) => upvoteQue(e, question._id)} Style="width:15px; border:none;"><i className="fa fa-caret-up" Style="font-size: 35px;"></i></button>
+                    <button className='btn btn-white' id="queupvotebtn" onClick={(e) => upvoteQue(e, question._id)} style={{width: '15px', border: 'none'}}>
+                        <i className="fa fa-caret-up" style={{fontSize: '35px', color: 'black'}}></i>
+                    </button>
                         <div className='mx-3'>{queVote}</div>
                         <button className='btn btn-white' id="quedownvotbtn" onClick={(e) => downvoteQue(e, question._id)} Style="width:15px; border:none;"><i className="fa fa-caret-down" Style="font-size: 35px;"></i></button>
 

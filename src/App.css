@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-primary {
+  --bs-btn-bg: #dc3545;
+  --bs-btn-hover-bg: #bd3a47;
+  --bs-btn-active-bg: #dc3545;
+  --bs-btn-active-border-color: #dc3545;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #dc3545;
+  --bs-btn-border-color: #bd3a47;
+  --bs-btn-hover-bg: #dc3545;
+}

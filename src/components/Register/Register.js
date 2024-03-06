@@ -108,7 +108,7 @@ function Register() {
             </div>
           </form>
           <div className="signup">Already Have Acount?
-            <NavLink to="/login">Sigin Now</NavLink>
+            <NavLink to="/login" Style="color: #dc3545;">Sigin Now</NavLink>
           </div>
         </div>
       </div>

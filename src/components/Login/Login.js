@@ -129,7 +129,7 @@ function Login() {
               </div>
             </form>
             <div className="signup">Don't have account?
-              <NavLink to="/register">Signup Now</NavLink>
+              <NavLink to="/register"Style="color: #dc3545;">Signup Now</NavLink>
             </div>
           </div>
         </div>
